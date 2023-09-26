@@ -1,12 +1,4 @@
 /* ============== Right Section ============== */
-.right-section {
-  background-color: rgba(0, 0, 0, 0.693);
-}
-.cartLogin {
-  display: flex; 
-  justify-content: flex-end;
-  margin-right: 1em;
-}
 .styleSlide {
   color: white!important;
   background-color: orange!important;

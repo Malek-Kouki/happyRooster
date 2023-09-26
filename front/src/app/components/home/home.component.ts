@@ -7,7 +7,6 @@ import { TranslationService } from 'src/app/shared/services/translation.service'
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements AfterViewInit {
-  public url: any;
   public englishLabelDropdown: string = 'English';
   public englishLabel: string = 'English';
   public frenchLabel: string = 'French';
