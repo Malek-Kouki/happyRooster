@@ -15,6 +15,8 @@ import { SpinnerComponent } from './shared/spinner/spinner.component';
 import { SpecialtyComponent } from './components/specialty/specialty.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { ForgetPasswordComponent } from './components/forget-password/forget-password.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -30,7 +32,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     SpinnerComponent,
     SpecialtyComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent,
+    ForgetPasswordComponent
   ],
   imports: [
     BrowserModule,

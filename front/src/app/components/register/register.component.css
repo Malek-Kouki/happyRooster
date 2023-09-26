@@ -1,4 +1,4 @@
-  .blocLogin .row{
+  .blocRegister .row{
     position: relative;
     justify-content: center;
   }
@@ -52,6 +52,12 @@
     padding-left: 0px;
     margin-top: 0;
   }
+    .inputUsername {
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        border-right: none;
+        border-bottom: none;
+    }
     .inputEmail {
       border-top: 1px solid white;
       border-left: none;
@@ -64,6 +70,12 @@
       border-right: none;
       border-bottom: 1px solid white;
     }
+    .inputConfirmPassword{
+        border-top: none;
+        border-left: none;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+      }
     .form-group input:focus{
       box-shadow: none;
     }

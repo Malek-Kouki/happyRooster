@@ -105,56 +105,56 @@
     margin-top: 0;
    }
     .left-section .inputName {
-        border-top: 1px solid rgba(255, 255, 255, 0.683);
-        border-left: 1px solid rgba(255, 255, 255, 0.683);
-        border-right: none;
-        border-bottom: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.683);
+      border-left: 1px solid rgba(255, 255, 255, 0.683);
+      border-right: none;
+      border-bottom: none;
     }
     .left-section .inputEmail {
-        border-top: 1px solid rgba(255, 255, 255, 0.683);
-        border-left: none;
-        border-right: 1px solid rgba(255, 255, 255, 0.683);
-        border-bottom: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.683);
+      border-left: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.683);
+      border-bottom: none;
     }
     .left-section .inputSubject {
-        border-top: 1px solid rgba(255, 255, 255, 0.683);
-        border-left: 1px solid rgba(255, 255, 255, 0.683);
-        border-right: none;
-        border-bottom: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.683);
+      border-left: 1px solid rgba(255, 255, 255, 0.683);
+      border-right: none;
+      border-bottom: none;
     }
     .left-section .inputMessage {
-        border-top: 1px solid rgba(255, 255, 255, 0.683);
-        border-left: none;
-        border-right: 1px solid rgba(255, 255, 255, 0.683);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.683);
+      border-top: 1px solid rgba(255, 255, 255, 0.683);
+      border-left: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.683);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.683);
     }
     .left-section .form-group input:focus,
     .left-section .form-group textarea:focus {
-        box-shadow: none;
+      box-shadow: none;
     }
     .left-section .form-group input::placeholder,
     .left-section .form-group textarea::placeholder {
-        color: #e3e1e1;
-        font-size: 13px;
-        font-family: "Lustria", serif;
-        padding: 0 0 0 15px;
+      color: #e3e1e1;
+      font-size: 15px;
+      font-family: "Lustria", serif;
+      padding: 0 0 0 15px;
     }
     .left-section button {
-        background: rgba(255, 0, 0, 0.825);
-        font-size: 15px;
-        border: none;
-        color: white;
-        font-weight: 500;
-        padding: 10px 20px;
-        border-radius: 25px;
-        text-transform: uppercase;
-        box-shadow: rgba(220, 1, 1, 0.825) 0px 2px 8px 0px;
+      background: rgba(255, 0, 0, 0.825);
+      font-size: 15px;
+      border: none;
+      color: white;
+      font-weight: 500;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-transform: uppercase;
+      box-shadow: rgba(220, 1, 1, 0.825) 0px 2px 8px 0px;
     }
     .left-section button:hover {
-        background: rgba(220, 1, 1, 0.825);
+      background: rgba(220, 1, 1, 0.825);
     }
     .btnSubmit {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }

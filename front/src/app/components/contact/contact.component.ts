@@ -40,17 +40,17 @@ export class ContactComponent implements AfterViewInit {
       (this.el.nativeElement.querySelector('#englishFlag') as HTMLImageElement).src =
         'assets/imgs/english.png';
 
-        document.getElementById('contactTab')!.textContent = 'Contact us';
-        document.getElementById('submit')!.textContent = 'Send Message';
-        document.getElementById('addressContact')!.textContent = 'Address';
-        document.getElementById('emailContact')!.textContent = 'Email';
-        document.getElementById('phone')!.textContent = 'Phone';
-        document.getElementById('socialMedia')!.textContent =
+      document.getElementById('contactTab')!.textContent = 'Contact us';
+      document.getElementById('submit')!.textContent = 'Send Message';
+      document.getElementById('addressContact')!.textContent = 'Address';
+      document.getElementById('emailContact')!.textContent = 'Email';
+      document.getElementById('phone')!.textContent = 'Phone';
+      document.getElementById('socialMedia')!.textContent =
           'Follow us on social media';
-        nameInput.placeholder = 'Name & Surname';
-        emailInput.placeholder = 'Email';
-        subjectInput.placeholder = 'Subject';
-        messageInput.placeholder = 'Message';
+      nameInput.placeholder = 'Name & Surname';
+      emailInput.placeholder = 'Email';
+      subjectInput.placeholder = 'Subject';
+      messageInput.placeholder = 'Message';
     } else {
       // Traduction French
       this.englishLabelDropdown = 'Français';

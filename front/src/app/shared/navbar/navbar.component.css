@@ -1,6 +1,10 @@
 /* ============== Navbar ============== */
   .navbar-expand-lg {
-    background-color: rgba(0, 0, 0, 0.693);
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 0.693) 20%,
+      rgba(0, 0, 0, 0.41) 100%
+    );
   }
   .navbar-brand .logo {
     text-decoration: none;
