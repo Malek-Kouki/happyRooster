@@ -40,7 +40,7 @@ export class ContactComponent implements AfterViewInit {
       (this.el.nativeElement.querySelector('#englishFlag') as HTMLImageElement).src =
         'assets/imgs/english.png';
 
-      document.getElementById('contactTab')!.textContent = 'Contact us';
+      document.getElementById('contactTab')!.textContent = 'Contact Us';
       document.getElementById('submit')!.textContent = 'Send Message';
       document.getElementById('addressContact')!.textContent = 'Address';
       document.getElementById('emailContact')!.textContent = 'Email';

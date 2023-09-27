@@ -7,4 +7,7 @@
     <img src="assets/imgs/nuggets.png" class="design-left" alt="" />
     <img src="assets/imgs/frites.png" class="design-right" alt="" />
 </div>
+<div *ngIf="spinnerService.isSpinner$ | async">
+    <app-spinner></app-spinner>
+</div>
 <router-outlet></router-outlet>
